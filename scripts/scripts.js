@@ -1,8 +1,7 @@
 $(function(){
 	$(".title").typed({
 		strings: [
-		"hector_torres",
-		"Hector Torres", 
+		"Hector Torres",
 		],
 		typeSpeed: 85,
 		backDelay: 85,
