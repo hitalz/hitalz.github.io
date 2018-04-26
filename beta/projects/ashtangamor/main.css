@@ -21,15 +21,12 @@ body, html {
   top: 16%;
   width: 100%;
   text-align: center;
-}
-
-.logo img {
-  /* max-width: 38%; */
+  opacity: 0.90;
 }
 
 @media (max-width: 768px) {
   .logo {
-    top:15%;
+    top:18%;
   }
   .logo img {
     max-width: 78%;
@@ -51,7 +48,7 @@ body, html {
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
 }
 
@@ -60,6 +57,7 @@ body, html {
   color: black;
   letter-spacing: 7px;
   text-transform: uppercase;
+  opacity: 0.74;
 }
 
 .social {
@@ -76,6 +74,7 @@ body, html {
   margin: 0;
   padding: 0;
   text-align: center;
+  opacity: 0.88;
 }
 
 .social li {
@@ -93,4 +92,5 @@ body, html {
   margin-right: -50%;
   transform: translate(-50%, -15%);
   text-align: center;
+  opacity: 0.74;
 }
