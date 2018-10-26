@@ -1,0 +1,45 @@
+html, body {
+  background-color: #adc4ce;
+}
+
+#content {
+  background-color: #adc4ce;
+}
+
+#title{
+  color: #464e56;
+  font-weight: 500;
+}
+
+#description {
+  color: white;
+  font-weight: 400;
+}
+
+#survey-form {
+  color: #464e56;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+#name-label, #email-label, #number-label, #dropdown-label, #radio-label, #checkbox-label, #comments-label {
+  text-align: right;
+}
+.footer p {
+  font-size: medium;
+}
+
+.btn-primary{
+  background-color: #21384f !important;
+  border-color: #21384f !important;
+}
+
+.btn-primary:hover {
+  background-color: #34587c !important;
+  border-color: #34587c !important;
+}
+ @media only screen and (max-width: 600px) {
+   #name-label, #email-label, #number-label, #dropdown-label, #radio-label, #checkbox-label, #comments-label {
+     text-align: left;
+   }
+ }

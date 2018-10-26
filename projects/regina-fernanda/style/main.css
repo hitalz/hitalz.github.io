@@ -1,0 +1,88 @@
+html, body{
+
+	overflow-x: hidden;
+  	overflow-y: hidden;
+}
+body {
+	font-family: 'circularSTD';
+	margin:0;
+	padding:0;
+	position: relative;
+}
+.brand {
+	left: 0px;
+}
+ .container {
+ 	max-width: 100%;
+ 	margin:0 auto;
+ 	padding:0 10px;
+ }
+.fixed-nav-bar {
+	position: fixed;
+	width: 100%;
+	height: 26px;
+	background-color: #181818;
+}
+.jumbotron {
+	height: 100vh;
+	background: url("../images/camisa.jpg") no-repeat center center fixed;
+	background-size: cover;
+
+}
+.nav {
+	margin:0;
+	padding:0;
+	padding-top: 5px;
+}
+li {
+	display: inline;
+}
+li .logo {
+	padding-left: 10px;
+	padding-top: 2px;
+}
+.nav li .mail {
+	float: right;
+	padding-right: 6px;
+}
+.nav li .tumblr {
+	float: right;
+	padding-right: 6px;
+}
+.nav li .insta {
+	float: right;
+	padding-right: 9px;
+}
+.nav li	.appleMusic	{
+	float: right;
+	padding-right: 10px;
+}
+@font-face {
+    font-family: 'circularSTD';
+    src: url(font/CircularStd-Book.otf);
+}
+/*Phone image size*/
+@media all and (max-width: 480px) {
+    .jumbotron {
+    	background: url("images/camisaM2.jpg");
+		background-size: cover;
+    	height: 100vh;
+    	overflow: hidden;
+    	padding-top: 50px;
+    	background-position: -80px 26px;
+    	background-repeat: no-repeat;
+    }
+    .fixed-nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 26px;
+	background-color: #181818;
+	}
+	html, body{
+	overflow-x: hidden;
+  	overflow-y: hidden;
+	}
+}
