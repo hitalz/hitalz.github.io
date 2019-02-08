@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Topo Chico | freeCodeCamp Project</title>
+    <meta name="description" content="Product Landing project. FreeCodeAcadmy. Inspired by topochicousa.net">
+    <!-- Custom style for this page -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  </head>
+  <body>
+    <header id="header">
+      <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+        <div class="d-flex flex-grow-1">
+          <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+          <a id="header-img" class="navbar-brand d-none d-lg-inline-block" href="#"><img src="img/tp-logo.png" height="80" weight="80" alt="" /></a>
+          <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#"><img src="img/tp-logo.png" height="80" weight="80" alt="" /></a>
+          <div id="navToggler" class="w-100 text-right">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#theNavbar" aria-controls="theNavbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="theNavbar">
+          <ul class="navbar-nav ml-auto flex-nowrap">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tv-spot">TV Spot</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+    </header>
+
+    <content>
+      <div class="parallax">
+        <div class="parallax-layer">
+        </div>
+      </div>
+      <div id="about">
+        <p class="about-content">This legend speaks of the virtues of the water that since 1895 has given its name to one of the most important drinks in all of Mexico: Topo Chico Mineral Water.<br /><br />
+          There was a beautiful Aztec princess who suffered a terrible disease. A disease so strange that no doctors of her father, Moctezuma I Ilhuicamina, successor in 1440 of the King Itzcoatl, had been able to cure.<br /><br />
+          Desperate, the King turned to the older priests in the kingdom to find a cure for his beautiful daughter. They told him that according to the timeless stories of travelers, in a far away northern land, there were strange and hidden waters which flowed at high temperatures. Waters in which one only needed to bathe in or drink from to regain vigor, joy, strength, and refreshment.<br /><br />
+          Encouraged by this news, Moctezuma I ordered an immediate expedition to take his daughter to this amazing place. After traveling long and rugged roads, the Princess and her expedition reached a fertile valley flanked by mountains. To the east, they saw a mountain with the form of woman’s face (now Cerro de la Silla) and a mole-shaped hill, from whose slopes flowed the prodigal waters.<br /><br />
+          After spending some time there, taking baths and drinking from the water, the daughter of Moctezuma I, his priests, and chiefs returned to the Anahuac lands optimistic, strong, happy, and refreshed. The news about the Princess's recovery spread throughout the kingdom and has passed from generation to generation up until modern times.
+        </p>
+      </div>
+
+      <div id="tv-spot">
+        <div id="video" class="py-5 px-5">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iRcu6VVlrtQ" allowfullscreen></iframe>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="products">
+        <img id="products-image" src="img/products.jpg" alt="..." class="img-fluid rounded mx-auto d-block">
+      </div>
+    </content>
+
+    <footer class="footer">
+      <div class="container">
+        <h1 class="form-header">Subscribe</h1>
+        <p class="form-about">
+          Sign up with your email address to receive news and updates about contests and giveaways!
+        </p>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input name="email" id="email" type="email" placeholder="Email Address" required/>
+          <input id="submit" type="submit" value="SIGN UP" class="button"></input>
+        </form>
+        <p class="form-footer">
+          We respect you privacy.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

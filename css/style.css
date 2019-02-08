@@ -172,7 +172,7 @@ body {
 }
 .portfolio-item .caption .caption-content h2 {
   font-size: 0.8rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .portfolio-item .caption .caption-content p {
   font-weight: 300;

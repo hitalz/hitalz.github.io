@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+html, body {
+  height: 100%;
+  font-family: 'Cabin', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgb(252,195,14);
+}
+
+.navbar, .navbar-nav {
+  padding: 25px;
+}
+.navbar, li, a {
+  text-transform: uppercase !important;
+  color: black !important;
+  text-decoration: none !important;
+}
+
+#header-img {
+  padding-left: 35px;
+}
+#navToggler {
+  padding-top: 25px;
+}
+
+/* Parallax */
+.parallax {
+  background-image: url("../img/tp-bckgrnd1.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-layer {
+  background-color: rgba(29, 29, 29, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* About */
+#about {
+  background-image: url("../img/tp-bckgrnd2.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about, .about-content{
+  color: white;
+  text-align: center;
+  line-height: 1.8;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 250px;
+  padding-right: 250px;
+  letter-spacing: 2.5px;
+  font-size: .8vw;
+}
+
+/* TV Spot */
+#tv-spot {
+  background-image: url("../img/tp-bckgrnd3.jpg");
+  height: 120%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#video {
+  padding-top: 200px;
+  padding-left: 240px;
+  padding-right: 240px;
+  padding-bottom: 100px;
+}
+
+/* Products */
+#products {
+  background-image: url("../img/tp-bckgrnd3.jpg");
+  height: 150%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-top: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 100px;
+}
+
+/* Footer */
+.footer {
+  height: 32%;
+  background-color: rgb(252, 195, 14);
+  padding-top: 20px;
+}
+
+.footer .container {
+  border: 1.5px solid black;
+  padding-top: 10px;
+  text-decoration: none;
+}
+.form-header {
+  text-align: center;
+  text-decoration: none;
+}
+.form-about {
+  text-align: center;
+  text-decoration: none;
+}
+#form {
+  text-align: center;
+}
+.form-footer {
+  text-align: center;
+  font-size: 10px;
+  padding-top: 25px;
+  text-decoration: none;
+}
+#email {
+  font-size: 14px;
+  padding: 14px 30px;
+  margin: 4px 2px;
+  text-decoration: none;
+}
+
+#submit {
+  background-color: black;
+  color: white;
+}
+#submit:hover {
+  background-color: rgb(76,65,31);
+  color: white;
+}
+
+.button {
+  border: 1px black;
+  color: black;
+  padding: 14px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.footer-footer {
+  font-size: 12px;
+  text-transform: lowercase;
+  text-align: center;
+}
+.footer-footer, a {
+  text-transform: lowercase;
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  #about, .about-content{
+    color: white;
+    text-align: center;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    font-size: 2.4vmin;
+  }
+  #tv-spot {
+    height: 35%;
+  }
+  #products {
+    height: 136%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .footer {
+    height: 56%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+  #video {
+    padding-top: 200px !important;
+    padding-left: 240px !important;
+    padding-right: 240px !important;
+    padding-bottom: 100px !important;
+  }
+}
