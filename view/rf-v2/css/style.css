@@ -1,0 +1,278 @@
+body {
+  background-color: white;
+  font-family: Avenir;
+
+  height: 100%;
+  width: 100%;
+
+  -webkit-user-select: none; /* Safari */
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #0f0f0f;
+}
+.dark-mode #h6-colo-text {
+  color: white;
+}
+.dark-mode #txt {
+  color: white;
+}
+.dark-mode #brand-logo {
+  color: white;
+}
+.dark-mode #brand{
+  content: url('https://s3.amazonaws.com/hitalz/rf-v2/logos/rf-white.png');
+  height: 50px;
+}
+
+#brand-logo {
+  position: relative;
+  padding-top: 25px;
+  padding-right: 25px;
+  float: right;
+  z-index: 999;
+  cursor: help;
+}
+
+#brand {
+  position: absolute;
+  z-index: 999;
+  padding-left: 45px;
+  padding-top: 25px;
+  font-size: 16px;
+}
+
+#subnav {
+  font-size: 14px;
+  position: fixed;
+  z-index: 999;
+  list-style: none;
+  line-height: 1.5;
+  bottom: 0;
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
+
+#mobile-home {
+  display: none;
+}
+
+
+#txt {
+  color: black;
+  text-decoration: none;
+}
+
+#txt:hover {
+  text-decoration: line-through;
+}
+
+/* About */
+#about {
+  position: absolute;
+  /* margin: 100px; */
+  padding-top: 120px;
+  padding-left: 50px;
+  padding-right: 100px;
+  background-color: inherit;
+  height: 86%;
+}
+
+/* Home */
+#draggable-object-one {
+  position: absolute;
+  left: 1155px;
+  top: 40px;
+  display: inline-block;
+}
+
+#draggable-object-two {
+  position: absolute;
+  left: 1026px;
+  top: 586px;
+  display: inline-block;
+}
+
+#draggable-object-three {
+  position: absolute;
+  left: 589px;
+  top: 8px;
+  display: inline-block;
+}
+
+#draggable-object-four {
+  position: absolute;
+  left: 458px;
+  top: 139px;
+  display: inline-block;
+}
+
+#draggable-object-five {
+  position: absolute;
+  left: 197px;
+  top: 270px;
+  display: inline-block;
+}
+
+#draggable-object-six {
+  position: absolute;
+  left: 518px;
+  top: 586px;
+  display: inline-block;
+}
+
+#draggable-object-seven {
+  position: absolute;
+  left: 737px;
+  top: 395px;
+  display: inline-block;
+}
+
+#actual-draggable-object-one {
+  width: 378px;
+  height: 470.87px;
+  position: absolute;
+}
+#actual-draggable-object-two {
+  width:533.5px;
+  height:300px; 
+  position: absolute;
+}
+#actual-draggable-object-three {
+  width: 576px; 
+  height: 720px;
+  position: absolute;
+}
+#actual-draggable-object-four {
+  width:227px;
+  height:282.75px;
+  position: absolute;
+}
+#actual-draggable-object-five {
+  width:376.4px;
+  height:468.8px;
+  position: absolute;
+}
+#actual-draggable-object-six {
+  width:302px;
+  height:376.7px;
+  position: absolute;
+}
+#actual-draggable-object-seven {
+  width: 378px;
+  height:504px;
+  position: absolute;
+}
+#draggable-object-one, #draggable-object-two, #draggable-object-three, #draggable-object-four, #draggable-object-five, #draggable-object-six, #draggable-object-seven {
+  cursor: move;
+}
+
+/* Links Menu*/
+#links {
+  font-size: 14px;
+  position: fixed;
+  z-index: 999;
+  list-style: none;
+  /* line-height: 1.5; */
+  bottom: 0;
+  padding-bottom: 35px;
+  margin-left: 90px;
+  text-decoration: none;
+}
+#links, ul {
+  list-style-type: none;
+}
+#links, .link-item {
+  display: inline;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+/* Mobile */
+@media only screen and (max-width: 414px) {
+  #brand-logo {
+    display: none;
+  }
+  #brand {
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    left: 44%;
+    top: 20%;
+    margin-left: -150px;
+    margin-top: -150px;
+  }
+  #draggable-object-one, #draggable-object-two, #draggable-object-three, #draggable-object-four, #draggable-object-five, #draggable-object-six,#draggable-object-seven {
+    display: none;
+  }
+  #about {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #brand-logo {
+    display: none;
+  }
+  #brand {
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    left: 44%;
+    top: 22%;
+    margin-left: -150px;
+    margin-top: -150px;
+  }
+  #subnav {
+    font-size: 14px;
+    position: fixed;
+    z-index: 999;
+    list-style: none;
+    line-height: 1.5;
+    bottom: 0;
+    padding-bottom: 5%;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #brand-logo {
+    display: none;
+  }
+  #brand {
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    left: 40%;
+    top: 25%;
+    margin-left: -150px;
+    margin-top: -150px;
+  }
+  #subnav {
+    font-size: 14px;
+    position: fixed;
+    z-index: 999;
+    list-style: none;
+    line-height: 1.5;
+    bottom: 0;
+    padding-bottom: 5%;
+    padding-left: 20px;
+  }
+}
