@@ -1,12 +1,6 @@
-@font-face {
-  font-family: Avenir;
-  src: url('../font/Avenir.ttc');
-}
-
 body {
   background-color: white;
   font-family: Avenir;
-  /* overflow: hidden; */
 
   height: 100%;
   width: 100%;
@@ -33,7 +27,7 @@ body.dark-mode {
   color: white;
 }
 .dark-mode #brand{
-  content: url('../img/logos/rf-white.png');
+  content: url('https://s3.amazonaws.com/hitalz/rf-content/logos/rf-white.png');
   height: 50px;
 }
 
@@ -65,6 +59,10 @@ body.dark-mode {
   padding-left: 40px;
 }
 
+#mobile-home {
+  display: none;
+}
+
 
 #txt {
   color: black;
@@ -83,102 +81,99 @@ body.dark-mode {
   padding-left: 50px;
   padding-right: 100px;
   background-color: inherit;
-  height: 80%;
+  height: 86%;
 }
 
 /* Home */
 #draggable-object-one {
-  width: 378px;
-  padding: 5px;
   position: absolute;
-  top: 85px;
-  left: 800px;
+  left: 1155px;
+  top: 40px;
   display: inline-block;
 }
 
 #draggable-object-two {
-  width: 533.5px;
-  height: 300px;
-  padding: 5px;
   position: absolute;
-  top: 500px;
-  left: 1000px;
+  left: 1026px;
+  top: 586px;
   display: inline-block;
 }
 
 #draggable-object-three {
-  width: 288px;
-  height: 360px;
-  /* padding: 5px; */
-
   position: absolute;
-  top: 110px;
-  left: 500px;
+  left: 589px;
+  top: 8px;
   display: inline-block;
 }
 
 #draggable-object-four {
-  width: 227px;
-  height: 282.75px;
-  padding: 5px;
   position: absolute;
-  top: 150px;
-  left: 300px;
+  left: 458px;
+  top: 139px;
   display: inline-block;
 }
 
 #draggable-object-five {
-  width: 376.4px;
-  height: 468.8px;
-  padding: 5px;
   position: absolute;
-  top: 150px;
-  left: 300px;
+  left: 197px;
+  top: 270px;
   display: inline-block;
 }
 
 #draggable-object-six {
-  width: 302px;
-  height: 376.7px;
-  padding: 5px;
   position: absolute;
-  top: 150px;
-  left: 300px;
+  left: 518px;
+  top: 586px;
   display: inline-block;
 }
 
 #draggable-object-seven {
-	width:150px;
-	height:150px;
-	position:absolute;
-	top:150px;
-  left:300px;
+  position: absolute;
+  left: 737px;
+  top: 395px;
   display: inline-block;
 }
 
+#actual-draggable-object-one {
+  width: 378px;
+  height: 470.87px;
+  position: absolute;
+}
+#actual-draggable-object-two {
+  width:533.5px;
+  height:300px; 
+  position: absolute;
+}
+#actual-draggable-object-three {
+  width: 576px; 
+  height: 720px;
+  position: absolute;
+}
+#actual-draggable-object-four {
+  width:227px;
+  height:282.75px;
+  position: absolute;
+}
+#actual-draggable-object-five {
+  width:376.4px;
+  height:468.8px;
+  position: absolute;
+}
+#actual-draggable-object-six {
+  width:302px;
+  height:376.7px;
+  position: absolute;
+}
+#actual-draggable-object-seven {
+  width: 378px;
+  height:504px;
+  position: absolute;
+}
 #draggable-object-one, #draggable-object-two, #draggable-object-three, #draggable-object-four, #draggable-object-five, #draggable-object-six, #draggable-object-seven {
   cursor: move;
 }
 
-#actual-draggable-object-seven {
-  width: 150px;
-  height:150px;
-  position: absolute;
-}
-#actual-draggable-object-three {
- width: 288px;
-  height: 360px;
-  position: absolute;
-}
-
-/* Orders */
-#orders {
-  display: none;
-  background: white;
-  margin-top: 100px;
-}
-
-/* Links */
+/* Links Menu*/
 #links {
   font-size: 14px;
   position: fixed;
@@ -188,6 +183,7 @@ body.dark-mode {
   bottom: 0;
   padding-bottom: 35px;
   margin-left: 90px;
+  text-decoration: none;
 }
 #links, ul {
   list-style-type: none;
@@ -203,6 +199,7 @@ a:link {
 }
 a:visited {
   text-decoration: none;
+  color: black;
 }
 
 /* Mobile */
@@ -219,31 +216,14 @@ a:visited {
     margin-left: -150px;
     margin-top: -150px;
   }
-  #draggable-object-one {
-    position: static;
-    left: 0;
-  }
-    #draggable-object-two {
-display: none;
-  }
-  #draggable-object-three {
+  #draggable-object-one, #draggable-object-two, #draggable-object-three, #draggable-object-four, #draggable-object-five, #draggable-object-six,#draggable-object-seven {
     display: none;
   }
-  #draggable-object-four {
-    position: static;
-    left: 0;
-  }
-  #draggable-object-five {
-    position: static;
-    left: 0;
-  }
-  #draggable-object-six {
-    position: static;
-    left: 0;
-  }
-  #draggable-object-seven {
-    position: static;
-    left: 0;
+  #about {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20%;
   }
 }
 
@@ -270,13 +250,12 @@ display: none;
     padding-bottom: 5%;
     padding-left: 20px;
   }
-  #
 }
+
 @media only screen and (max-width: 320px) {
   #brand-logo {
     display: none;
   }
-
   #brand {
     width: 300px;
     height: 300px;

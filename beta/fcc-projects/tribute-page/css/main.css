@@ -1,0 +1,64 @@
+.body {
+  padding: 10px;
+  padding-left: 15px;
+  background-color: #E2E9EE;
+  background-color: rgb(29, 161, 242);
+}
+
+.container-fluid {
+  background-color: white;
+  border-color:white;
+  border-width: 3px;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+.twtter{
+  color: black;
+  font-size: 60px;
+}
+.image {
+  padding: 20px;
+  float: right;
+  width: 100px;
+}
+.centered {
+  margin: auto;
+  max-width: 300px;
+}
+
+.img-fluid{
+  width: 100%;
+  height: auto;
+}
+
+.at-twitter {
+  float: left;
+  color: #E2E9EE;
+  margin-top: -30px;
+  padding-top: 20px;
+  padding-left: 7px;
+}
+.at {
+  float: left;
+  font-size: 4.9vw;
+  color: #E2E9EE;
+  padding: 10px;
+}
+
+.caption {
+  background-color: white;
+  float: right;
+  margin-top: -11px;
+  border-radius: 2px;
+}
+
+.timeline {
+  padding: 0;
+  padding-left: 25px;
+}
+
+.about-paragraph {
+  text-indent: 15px;
+  padding-left: 10px;
+}
