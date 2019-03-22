@@ -1,3 +1,1 @@
-# hitalz.github.io
-
-Personal Site
+# My Site

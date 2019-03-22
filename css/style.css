@@ -1,6 +1,8 @@
 body {
   font-family: 'Hind Light', sans-serif;
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4;  */
+  background-color: #282828;
+  color: #f4f4f4;
 
 }
 
@@ -68,43 +70,8 @@ body {
   margin: 0;
 }
 .content .link-button {
-  color: black;
+  color: #f4f4f4;
   text-decoration: none;
-}
-
-.link-button {
-  position: relative;
-  display: block;
-  cursor: pointer;
-}
-.link-button:before, .link-button:after {
-  content: '';
-  position: absolute;
-  width: 0%;
-  height: 1px;
-  top: 50%;
-  background: black;
-}
-.link-button:before {
-  left: 0;
-}
-
-.link-button:after {
-  right: 0;
-  background: black;
-  transition: width 0.8s cubic-bezier(.57,.21,.69,1.25);
-}
-
-.link-button:hover:before {
-  background: black;
-  width: 100%;
-  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
-}
-
-.link-button:hover:after {
-  background: transparent;
-  width: 100%;
-  transition: 0s;
 }
 
 @media only screen and (max-width: 600px) {
