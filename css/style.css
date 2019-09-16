@@ -1,8 +1,7 @@
 body {
   font-family: 'Hind Light', sans-serif;
   background-color: #f4f4f4; 
-  /* background-color: #282828; */
-  /* color: #f4f4f4; */
+  color: black;
 
 }
 
@@ -83,5 +82,18 @@ body {
   }
   .content{
     top: 49%;
+  }
+}
+
+
+@media screen and (prefers-color-scheme: dark) {
+	body {
+		color: white;
+		background-color: #282828;
+  }
+  
+  .content .link-button {
+    color: white;
+    text-decoration: none;
   }
 }
